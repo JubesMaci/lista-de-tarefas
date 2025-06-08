@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lista de Tarefas</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="logotipo" />
+      </div>
+
+      <div>
+        <button id="backBtn" class="back-button">
+          <img
+            src="assets/arrow.svg"
+            alt="seta para voltar a página anterior"
+          />
+          <p>Voltar</p>
+        </button>
+      </div>
+      <div class="task-input">
+        <input type="text" id="taskText" placeholder="Digite sua tarefa" />
+        <button id="addBtn">Adicionar</button>
+      </div>
+
+      <ul id="taskList" class="hidden show"></ul>
+      <div id="toast" class="toast hidden">
+        <img src="assets/alert.svg" alt="icone de alerta" />
+        <p>O item foi removido da lista!</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

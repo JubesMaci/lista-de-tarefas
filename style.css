@@ -1,0 +1,151 @@
+body {
+  font-family: Inter, sans-serif;
+  color: #080b12;
+  background: #f4f5fb;
+}
+
+.container {
+  display: grid;
+  max-width: 500px;
+  margin: auto;
+}
+
+.task-input {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 20px;
+  margin-top: 16px;
+}
+
+#taskText {
+  padding: 11px;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 12px;
+  border: solid 2px #d1d5db;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+#taskText:hover {
+  border: solid 2px #b9c2d0;
+  background: none;
+}
+
+#taskText:focus {
+  border: 2px solid #ca3884;
+  background: none;
+}
+
+.task-input input {
+  all: unset;
+  padding: 11px;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  gap: 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#addBtn {
+  background-color: #ca3884;
+  color: #ffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#addBtn:hover {
+  background-color: #a52c6b;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  transform: scale(1.2); /* aumenta 1.5x o tamanho */
+  margin: 4px 15px 4px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 25px 94px;
+}
+
+#backBtn {
+  display: inline-flex;
+  border: none;
+  background: none;
+  color: #ca3884;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#toast {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c93847;
+  color: white;
+  border-radius: 8px;
+  opacity: 0;
+  gap: 12px;
+  margin-top:10px;
+}
+
+#toast.hidden {
+  display: none;
+}
+
+#toast.show {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 327px;
+  }
+  .task-input {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #taskText {
+    margin: 1px;
+  }
+  
+  #addBtn {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
