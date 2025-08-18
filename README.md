@@ -28,21 +28,14 @@ Permite **adicionar, concluir e remover** itens da lista, exibindo um *toast* de
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/<seu-usuario>/<seu-repo>.git
+   git clone https://github.com/JubesMaci/lista-de-tarefas
    ```
 2. Entre na pasta:
    ```bash
-   cd <seu-repo>
+   cd lista-de-tarefas
    ```
 3. Abra o arquivo `index.html` no navegador.  
    > Dica: use a extensão **Live Server** no VS Code para facilitar o reload automático.
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**.  
-Sinta-se livre para usar, modificar e compartilhar.
 
 ---
 
