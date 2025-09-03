@@ -37,9 +37,4 @@ Permite **adicionar, concluir e remover** itens da lista, exibindo um *toast* de
 3. Abra o arquivo `index.html` no navegador.  
    > Dica: use a extensão **Live Server** no VS Code para facilitar o reload automático.
 
----
 
-## 👤 Autor
-
-**Júlia Karine**  
-[[LinkedIn]((https://www.linkedin.com/in/julia-karine-maciel/))]
