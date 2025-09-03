@@ -9,8 +9,8 @@ Permite **adicionar, concluir e remover** itens da lista, exibindo um *toast* de
 
 - Adicionar nova tarefa
 - Marcar tarefa como **concluída**
-- Remover tarefa com mensagem de confirmação (*toast*)
-- Layout responsivo e tipografia **Inter**
+- Remover tarefa com mensagem de confirmação
+- Layout responsivo
 - Nenhuma dependência externa
 
 ---
@@ -20,7 +20,6 @@ Permite **adicionar, concluir e remover** itens da lista, exibindo um *toast* de
 - HTML5  
 - CSS3  
 - JavaScript (DOM API)  
-- Google Fonts (Inter)
 
 ---
 
