@@ -19,7 +19,7 @@ Permite **adicionar, concluir e remover** itens da lista, exibindo um *toast* de
 
 - HTML5  
 - CSS3  
-- JavaScript (DOM API)  
+- JavaScript 
 
 ---
 
